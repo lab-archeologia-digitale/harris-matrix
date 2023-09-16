@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Harris’ Matrix</title>
+
+  </head>
+  <body>
+    <div class="container-fluid h-100 d-flex flex-column">
+
+      <div class="row h-100 d-flex">
+        <div class="col-3">
+
+          <h2>Harris’ Matrix</h2>
+
+          <div id="info" class="bg-light p-1 mb-2"></div>
+
+          <textarea class="form-control form-control-sm" id="dot-input" placeholder="Insert JSON notation here"></textarea>
+          <button type="button" class="btn btn-block btn-primary" id ="process">Send</button>
+          <div class="form-group">
+            <div class="form-check">
+              <input type="checkbox" id="concentrate" class="form-check-input"  />
+              <label for="concentrate">Concentrate</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <select id="splines" class="form-control">
+              <option value="none">None</option>
+              <option value="line">Line</option>
+              <option value="polyline">Polyline</option>
+              <option value="curved">Curved</option>
+              <option value="ortho" selected>Ortho</option>
+              <option value="spline">Spline</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input type="checkbox" id="as_png" class="form-check-input"  />
+              <label for="as_png">Save as png</label>
+            </div>
+          </div>
+
+          <hr>
+          by <a href="http://bradypus.net" target="_blank">Bradypus</a>
+          <p>Use <a href="https://en.wikipedia.org/wiki/DOT_(graph_description_language)" target="_blank">DOT language</a> to build Harris’ Matrix diagrams</p>
+        </div>
+        <div class="col d-flex">
+          <div id="graph"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="libs/viz-lite.js"></script>
+    <script src="libs/svg-pan-zoom.min.js"></script>
+    <script src="./json-stringify-pretty-compact.js"></script>
+    <script src="harris-matrix.js"></script>
+    <script>
+
+      const HM = new HarrisMatrix();
+
+      document.getElementById('dot-input').value = HM.getFromLs(true);
+      showGraph();
+
+      document.getElementById('process').addEventListener('click', e => showGraph() );
+
+      function showGraph(){
+        const json = document.getElementById('dot-input').value;
+
+        HM.build(json, document.getElementById('graph'), {
+          concentrate: document.getElementById('concentrate').checked,
+          png:      document.getElementById('as_png').checked,
+          splines:  document.getElementById('splines').value
+        }, el => handleClick(el) );
+
+        HM.save2ls(json);
+      }
+
+      function myAlert(id, text, tb){
+        document.getElementById('info').innerHTML = `<a href="https://bdus.cloud/db/#/suasa/${tb}/${id}/true" target="_blank">${id}</a>: ${text}`;
+      }
+
+      function handleClick(el){
+
+        const id = el.querySelector('title').textContent;
+        if (el.querySelectorAll('ellipse').length === 2 && el.querySelectorAll('ellipse[fill="#fcb0b0"]').length > 0){
+
+          myAlert(id, 'Tomba a cremazione dentro il recinto', 'tombe');
+        } else  if (el.querySelectorAll('ellipse').length === 2 && el.querySelectorAll('ellipse[fill="#d6c400"]').length > 0){
+          myAlert(id, 'Tomba a inumazione dentro il recinto', 'tombe');
+        } else  if (el.querySelectorAll('ellipse').length === 1 && el.querySelectorAll('ellipse[fill="#fcb0b0"]').length > 0){
+          myAlert(id, 'Tomba a cremazione fuori dal recinto', 'tombe');
+        } else  if (el.querySelectorAll('ellipse').length === 1 && el.querySelectorAll('ellipse[fill="#d6c400"]').length > 0){
+          myAlert(id, 'Tomba a inumazione fuori dal recinto', 'tombe');
+        } else  if (el.querySelectorAll('ellipse').length === 1){
+          myAlert(id, 'Strato', 'us');
+        } else  if (el.querySelectorAll('polygon').length === 1){
+          myAlert(id, 'Struttura', 'us');
+        }
+      }
+
+    </script>
+  </body>
+</html>

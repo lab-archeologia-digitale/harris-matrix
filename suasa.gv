@@ -1,0 +1,532 @@
+// Dentro il recinto
+503 [shape=doublecircle];
+509 [shape=doublecircle];
+508 [shape=doublecircle];
+510 [shape=doublecircle];
+514 [shape=doublecircle];
+511 [shape=doublecircle];
+513 [shape=doublecircle];
+512 [shape=doublecircle];
+501 [shape=doublecircle];
+502 [shape=doublecircle];
+518 [shape=doublecircle];
+519 [shape=doublecircle];
+520 [shape=doublecircle];
+522 [shape=doublecircle];
+531 [shape=doublecircle];
+528 [shape=doublecircle];
+527 [shape=doublecircle];
+521 [shape=doublecircle];
+524 [shape=doublecircle];
+523 [shape=doublecircle];
+526 [shape=doublecircle];
+533 [shape=doublecircle];
+534 [shape=doublecircle];
+535 [shape=doublecircle];
+547 [shape=doublecircle];
+538 [shape=doublecircle];
+548 [shape=doublecircle];
+552 [shape=doublecircle];
+556 [shape=doublecircle];
+555 [shape=doublecircle];
+557 [shape=doublecircle];
+558 [shape=doublecircle];
+560 [shape=doublecircle];
+568 [shape=doublecircle];
+567 [shape=doublecircle];
+570 [shape=doublecircle];
+569 [shape=doublecircle];
+561 [shape=doublecircle];
+572 [shape=doublecircle];
+574 [shape=doublecircle];
+575 [shape=doublecircle];
+576 [shape=doublecircle];
+577 [shape=doublecircle];
+578 [shape=doublecircle];
+581 [shape=doublecircle];
+580 [shape=doublecircle];
+582 [shape=doublecircle];
+584 [shape=doublecircle];
+585 [shape=doublecircle];
+586 [shape=doublecircle];
+594 [shape=doublecircle];
+591 [shape=doublecircle];
+590 [shape=doublecircle];
+579 [shape=doublecircle];
+589 [shape=doublecircle];
+587 [shape=doublecircle];
+593 [shape=doublecircle];
+583 [shape=doublecircle];
+599 [shape=doublecircle];
+598 [shape=doublecircle];
+596 [shape=doublecircle];
+597 [shape=doublecircle];
+601 [shape=doublecircle];
+602 [shape=doublecircle];
+603 [shape=doublecircle];
+595 [shape=doublecircle];
+605 [shape=doublecircle];
+606 [shape=doublecircle];
+607 [shape=doublecircle];
+608 [shape=doublecircle];
+600 [shape=doublecircle];
+
+
+// Inumazioni
+512 [fillcolor="#d6c400", style="filled"];
+538 [fillcolor="#d6c400", style="filled"];
+541 [fillcolor="#d6c400", style="filled"];
+545 [fillcolor="#d6c400", style="filled"];
+554 [fillcolor="#d6c400", style="filled"];
+560 [fillcolor="#d6c400", style="filled"];
+563 [fillcolor="#d6c400", style="filled"];
+566 [fillcolor="#d6c400", style="filled"];
+565 [fillcolor="#d6c400", style="filled"];
+562 [fillcolor="#d6c400", style="filled"];
+564 [fillcolor="#d6c400", style="filled"];
+580 [fillcolor="#d6c400", style="filled"];
+589 [fillcolor="#d6c400", style="filled"];
+596 [fillcolor="#d6c400", style="filled"];
+597 [fillcolor="#d6c400", style="filled"];
+606 [fillcolor="#d6c400", style="filled"];
+
+// Cremazioni
+503 [fillcolor="#fcb0b0", style="filled"];
+511 [fillcolor="#fcb0b0", style="filled"];
+501 [fillcolor="#fcb0b0", style="filled"];
+502 [fillcolor="#fcb0b0", style="filled"];
+508 [fillcolor="#fcb0b0", style="filled"];
+509 [fillcolor="#fcb0b0", style="filled"];
+513 [fillcolor="#fcb0b0", style="filled"];
+514 [fillcolor="#fcb0b0", style="filled"];
+510 [fillcolor="#fcb0b0", style="filled"];
+518 [fillcolor="#fcb0b0", style="filled"];
+519 [fillcolor="#fcb0b0", style="filled"];
+520 [fillcolor="#fcb0b0", style="filled"];
+521 [fillcolor="#fcb0b0", style="filled"];
+522 [fillcolor="#fcb0b0", style="filled"];
+524 [fillcolor="#fcb0b0", style="filled"];
+523 [fillcolor="#fcb0b0", style="filled"];
+528 [fillcolor="#fcb0b0", style="filled"];
+530 [fillcolor="#fcb0b0", style="filled"];
+533 [fillcolor="#fcb0b0", style="filled"];
+531 [fillcolor="#fcb0b0", style="filled"];
+529 [fillcolor="#fcb0b0", style="filled"];
+526 [fillcolor="#fcb0b0", style="filled"];
+534 [fillcolor="#fcb0b0", style="filled"];
+527 [fillcolor="#fcb0b0", style="filled"];
+535 [fillcolor="#fcb0b0", style="filled"];
+537 [fillcolor="#fcb0b0", style="filled"];
+543 [fillcolor="#fcb0b0", style="filled"];
+542 [fillcolor="#fcb0b0", style="filled"];
+540 [fillcolor="#fcb0b0", style="filled"];
+544 [fillcolor="#fcb0b0", style="filled"];
+539 [fillcolor="#fcb0b0", style="filled"];
+547 [fillcolor="#fcb0b0", style="filled"];
+546 [fillcolor="#fcb0b0", style="filled"];
+549 [fillcolor="#fcb0b0", style="filled"];
+548 [fillcolor="#fcb0b0", style="filled"];
+552 [fillcolor="#fcb0b0", style="filled"];
+550 [fillcolor="#fcb0b0", style="filled"];
+555 [fillcolor="#fcb0b0", style="filled"];
+556 [fillcolor="#fcb0b0", style="filled"];
+557 [fillcolor="#fcb0b0", style="filled"];
+558 [fillcolor="#fcb0b0", style="filled"];
+561 [fillcolor="#fcb0b0", style="filled"];
+567 [fillcolor="#fcb0b0", style="filled"];
+568 [fillcolor="#fcb0b0", style="filled"];
+571 [fillcolor="#fcb0b0", style="filled"];
+569 [fillcolor="#fcb0b0", style="filled"];
+570 [fillcolor="#fcb0b0", style="filled"];
+572 [fillcolor="#fcb0b0", style="filled"];
+573 [fillcolor="#fcb0b0", style="filled"];
+574 [fillcolor="#fcb0b0", style="filled"];
+576 [fillcolor="#fcb0b0", style="filled"];
+575 [fillcolor="#fcb0b0", style="filled"];
+577 [fillcolor="#fcb0b0", style="filled"];
+578 [fillcolor="#fcb0b0", style="filled"];
+579 [fillcolor="#fcb0b0", style="filled"];
+581 [fillcolor="#fcb0b0", style="filled"];
+584 [fillcolor="#fcb0b0", style="filled"];
+587 [fillcolor="#fcb0b0", style="filled"];
+582 [fillcolor="#fcb0b0", style="filled"];
+585 [fillcolor="#fcb0b0", style="filled"];
+586 [fillcolor="#fcb0b0", style="filled"];
+590 [fillcolor="#fcb0b0", style="filled"];
+591 [fillcolor="#fcb0b0", style="filled"];
+601 [fillcolor="#fcb0b0", style="filled"];
+603 [fillcolor="#fcb0b0", style="filled"];
+583 [fillcolor="#fcb0b0", style="filled"];
+593 [fillcolor="#fcb0b0", style="filled"];
+594 [fillcolor="#fcb0b0", style="filled"];
+602 [fillcolor="#fcb0b0", style="filled"];
+607 [fillcolor="#fcb0b0", style="filled"];
+599 [fillcolor="#fcb0b0", style="filled"];
+598 [fillcolor="#fcb0b0", style="filled"];
+595 [fillcolor="#fcb0b0", style="filled"];
+600 [fillcolor="#fcb0b0", style="filled"];
+608 [fillcolor="#fcb0b0", style="filled"];
+605 [fillcolor="#fcb0b0", style="filled"];
+node [shape="box"];
+674 [shape="oval"];
+676 [shape="oval"];
+677 [shape="oval"];
+684 [shape="oval"];
+722 [shape="oval"];
+732 [shape="oval"];
+830 [shape="oval"];
+829 [shape="oval"];
+832 [shape="oval"];
+833 [shape="oval"];
+940 [shape="oval"];
+984 [shape="box", fillcolor="#999999", style="filled"];
+985 [shape="oval"];
+1001 [shape="oval"];
+1007 [shape="oval"];
+1055 [shape="oval"];
+1242 [shape="box", fillcolor="#999999", style="filled"];
+1262 [shape="box", fillcolor="#999999", style="filled"];
+1264 [shape="oval"];
+
+501 -> 684;
+676 -> 501;
+501 -> 502;
+
+502 -> 684;
+676 -> 502;
+
+503 -> 722;
+676 -> 503;
+677 -> 503;
+
+508 -> 510;
+676 -> 508;
+
+509 -> 722;
+676 -> 509;
+677 -> 509;
+509 -> 508;
+
+510 -> 722;
+676 -> 510;
+510 -> 511;
+
+511 -> 833;
+722 -> 511;
+
+512 -> 829;
+832 -> 512;
+
+513 -> 833;
+722 -> 513;
+
+514 -> 722;
+676 -> 514;
+
+518 -> 829;
+832 -> 518;
+
+519 -> 829;
+832 -> 519;
+
+520 -> 829;
+832 -> 520;
+
+521 -> 722;
+676 -> 521;
+
+522 -> 829;
+832 -> 522;
+
+523 -> 722;
+676 -> 523;
+
+524 -> 829;
+832 -> 524;
+
+526 -> 829;
+832 -> 526;
+
+527 -> 829;
+832 -> 527;
+
+528 -> 829;
+832 -> 528;
+
+529 -> 676;
+674 -> 529;
+
+530 -> 676;
+674 -> 530;
+
+531 -> 722;
+676 -> 531;
+531 -> 534;
+
+533 -> 829;
+832 -> 533;
+
+534 -> 722;
+676 -> 534;
+
+535 -> 985;
+940 -> 535;
+
+537 -> 722;
+676 -> 537;
+
+538 -> 1001;
+674 -> 538;
+
+539 -> 722;
+676 -> 539;
+539 -> 540;
+
+540 -> 722;
+676 -> 540;
+
+541 -> 1001;
+674 -> 541;
+
+542 -> 722;
+676 -> 542;
+
+543 -> 722;
+676 -> 543;
+
+544 -> 722;
+676 -> 544;
+
+545 -> 1001;
+674 -> 545;
+
+546 -> 722;
+676 -> 546;
+1055 -> 546;
+
+547 -> 722;
+676 -> 547;
+547 -> 548;
+
+548 -> 722;
+676 -> 548;
+
+549 -> 722;
+676 -> 549;
+
+550 -> 722;
+676 -> 550;
+
+552 -> 732;
+684 -> 552;
+
+554 -> 1001;
+674 -> 554;
+
+555 -> 722;
+684 -> 555;
+
+556 -> 722;
+684 -> 556;
+
+557 -> 722;
+676 -> 557;
+
+558 -> 722;
+676 -> 558;
+
+560 -> 1001;
+674 ->  560;
+
+561 -> 722;
+676 -> 561;
+
+562 -> 684;
+676 -> 562;
+1001 -> 562;
+
+563 -> 1001;
+563 -> 676;
+674 -> 563;
+
+564 -> 684;
+676 -> 564;
+1001 -> 564;
+
+565 -> 684;
+676 -> 565;
+1001 -> 565;
+
+566 -> 722;
+684 -> 566;
+
+567 -> 722;
+684 -> 567;
+
+568 -> 722;
+684 -> 568;
+
+569 -> 722;
+684 -> 569;
+
+570 -> 722;
+684 -> 570
+
+571 -> 732;
+722 -> 571;
+
+
+572 -> 732;
+722 -> 572;
+
+573 -> 676;
+674 -> 573;
+
+574 -> 676;
+674 -> 574;
+
+575 -> 676;
+674 -> 575;
+
+576 -> 676;
+674 -> 576;
+
+577 -> 676;
+674 -> 577;
+
+578 -> 722;
+676 -> 578;
+578 -> 583;
+578 -> 600;
+
+579 -> 676;
+674 -> 579;
+
+580 -> 676;
+674 -> 580;
+580 -> 595;
+
+581 -> 684;
+581 -> 722;
+676 -> 581;
+581 -> 1242;
+
+582 -> 684;
+582 -> 722;
+676 -> 582;
+582 -> 600;
+
+583 -> 732;
+1264 -> 583;
+583 -> 600;
+
+584 -> 722;
+676 -> 584;
+
+585 -> 676;
+674 -> 585;
+
+586 -> 676;
+674 -> 586;
+
+587 -> 722;
+676 -> 587;
+
+589 -> 684;
+676 -> 589;
+589 -> 608;
+589 -> 598;
+589 -> 599;
+
+590 -> 732;
+722 -> 590;
+
+591 -> 732;
+722 -> 591;
+578 -> 591;
+591 -> 605;
+591 -> 606;
+
+593 -> 722;
+676 -> 593;
+587 -> 593;
+
+594 -> 722;
+676 -> 594;
+
+595 -> 722;
+676 -> 595;
+
+596 -> 684;
+676 -> 596;
+
+597 -> 684;
+676 -> 597;
+
+598 -> 732;
+722 -> 598;
+
+599 -> 732;
+722 -> 599;
+599 -> 598;
+
+600 -> 833;
+732 -> 600;
+
+601 -> 732;
+1264 -> 601;
+
+602 -> 732;
+722 -> 602;
+602 -> 607;
+
+603 -> 732;
+722 -> 603;
+
+605 -> 732;
+722 -> 605;
+
+606 -> 732;
+722 -> 606;
+606 -> 1262;
+
+607 -> 833;
+732 -> 607;
+
+608 -> 722;
+684 -> 608;
+608 -> 598;
+
+
+
+//Strati
+676 -> 677;
+
+676 -> 984;
+677 -> 984;
+722 -> 984;
+732 -> 984;
+833 -> 984;
+829 -> 984;
+
+722 ->1007;
+722 -> 1242;
+722 -> 1262;
+722 -> 1264;
+
+732 -> 833;
+732 -> 1262;
+
+829 -> 1262;
+829 -> 830;
+830 -> 940;
+940 -> 985;
+
+833 -> 832;
+833 -> 1262;
+
+1001 -> 676;
+
+1007 -> 732;
+
+1264 -> 1262;
